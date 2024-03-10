@@ -14,6 +14,7 @@
 		4394F8AC2A758BB800086CFE /* simpleWebviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4394F8AB2A758BB800086CFE /* simpleWebviewTests.swift */; };
 		4394F8B62A758BB800086CFE /* simpleWebviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4394F8B52A758BB800086CFE /* simpleWebviewUITests.swift */; };
 		4394F8B82A758BB800086CFE /* simpleWebviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4394F8B72A758BB800086CFE /* simpleWebviewUITestsLaunchTests.swift */; };
+		43B045D82A7596600019D24E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B045D72A7596600019D24E /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4394F8B12A758BB800086CFE /* simpleWebviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleWebviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4394F8B52A758BB800086CFE /* simpleWebviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleWebviewUITests.swift; sourceTree = "<group>"; };
 		4394F8B72A758BB800086CFE /* simpleWebviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleWebviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43B045D72A7596600019D24E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				4394F89C2A758BB500086CFE /* ContentView.swift */,
 				4394F89E2A758BB700086CFE /* Assets.xcassets */,
 				4394F8A02A758BB700086CFE /* Preview Content */,
+				43B045D72A7596600019D24E /* WebView.swift */,
 			);
 			path = simpleWebview;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4394F89D2A758BB500086CFE /* ContentView.swift in Sources */,
+				43B045D82A7596600019D24E /* WebView.swift in Sources */,
 				4394F89B2A758BB500086CFE /* simpleWebviewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +421,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"simpleWebview/Preview Content\"";
+				DEVELOPMENT_TEAM = 22ZT2HCND9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"simpleWebview/Preview Content\"";
+				DEVELOPMENT_TEAM = 22ZT2HCND9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

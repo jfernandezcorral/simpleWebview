@@ -13,5 +13,6 @@ struct simpleWebviewApp: App {
         WindowGroup {
             ContentView()
         }
+            
     }
 }
